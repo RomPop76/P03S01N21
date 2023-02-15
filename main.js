@@ -7,7 +7,7 @@
 const condition = 2;
 
 if (condition) {
- // alert("działa!");
+//  alert("działa!");
  console.log("widzisz mnie ponieważ warunek jest prawdziwy i wykonuje zawartość bloku instrukcji warunkowej");
 }
 
@@ -116,7 +116,7 @@ switch (dayOfTheWeek) {
 a ? b : c;
 warunek ? wykonaj mnie jesli warunek true : wykonaj mnie jeśli warunek false
 */
-const score = 100
+// const score = 100
 20 == "20" && score ? console.log("wykonuje się, bo prawda") : console.log("wykonuje się bo warunek nie jest prawdziwy");
 
 score > 120 ? console.log("prawda") : console.log("fałsz");
