@@ -15,7 +15,7 @@ if (condition) {
 // Kod w bloku jest uruchomiony TYLKO WTEDY gdy warunek jest prawdziwy. Jeśli nie jest prawdziwy, to blok jest pomijany ({} - pomijany)
 
 // Przykład 2
-const userName = "Dobromir";
+const userName = "Stach";
 
 if (userName) {
  console.log("Witaj " + userName + "!")
