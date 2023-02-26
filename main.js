@@ -40,7 +40,7 @@ if (hasTicket && moreThen15Years || bossFamily) {
 // else wykonuje się tylko w wypadku gdy warunek if nie jest prawdą. Jeśli jest prawdą to else jest pomijany.
 
 // KLAUZULA ELSE IF
-const age = "20";
+const age = "30";
 
 // Tak nie powinniśmy - bo to są osobne instrukcje sprawdzane za każdym razem oddzielnie.
 
@@ -71,8 +71,8 @@ if (age <= 9 && typeof age === "number") {
 
 
 // ZAGNIEŻDZENIE IF
-const guestName = "Bolesław";
-const guestAge = 30;
+const guestName = "Stefan";
+const guestAge = 14;
 
 if (guestName != "") {
  if (guestAge > 18) {
@@ -117,9 +117,9 @@ a ? b : c;
 warunek ? wykonaj mnie jesli warunek true : wykonaj mnie jeśli warunek false
 */
 // const score = 100
-20 == "20" && score ? console.log("wykonuje się, bo prawda") : console.log("wykonuje się bo warunek nie jest prawdziwy");
+// 20 == "20" && score ? console.log("wykonuje się, bo prawda") : console.log("wykonuje się bo warunek nie jest prawdziwy");
 
-score > 120 ? console.log("prawda") : console.log("fałsz");
+// score > 120 ? console.log("prawda") : console.log("fałsz");
 
 // Z instrukcji warunkowej nie można przechwycić wartości i przypisać jej do zmiennej. A w pewnych sytuacjach chcemy to zrobić.
 // Operator warunkowy zwraca wartość (jako to operatory) i jest używany często gdy do zmiennej chcemy przypisać wynik działania
@@ -132,5 +132,5 @@ let killedMonsters = 9
 let score = killedMonsters > 10 ? 1 : 0;
 
 
-const playerName = "Mściowej";
+const playerName = "Staszek";
 console.log(`Witaj ${playerName ? playerName : "nieznajomy wojowniku"}`)
